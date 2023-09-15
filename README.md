@@ -15,7 +15,7 @@ For this dataset, there were 8523 rows and 12 columns.
 ## Data Dictionary
 
 <p align = "center"> 
-  ![Data_Dictionary](https://github.com/Gondram/Prediction-of-Product-Sales/assets/8175014/a76d0afd-ad07-40ed-bc59-c8a15e72ec11 "Data Dictionary")
+  <img src = "https://github.com/Gondram/Prediction-of-Product-Sales/assets/8175014/a76d0afd-ad07-40ed-bc59-c8a15e72ec11">
 </p>
 
 
@@ -28,7 +28,7 @@ For this dataset, there were 8523 rows and 12 columns.
     
 
 <p align = "center"> 
-![item_visibility_hist](https://github.com/Gondram/Prediction-of-Product-Sales/assets/8175014/68852655-7b6d-4994-a929-6a433b9ab844)
+  <img src = "https://github.com/Gondram/Prediction-of-Product-Sales/assets/8175014/68852655-7b6d-4994-a929-6a433b9ab844">
 </p>
 
 This histogram shows that the majority of the salaries are around $100,000.
@@ -43,7 +43,7 @@ This histogram shows that the majority of the salaries are around $100,000.
 ## Explanatory Visuals
 
 <p align = "center"> 
-![big_mart_sales_heatmap](https://github.com/Gondram/Prediction-of-Product-Sales/assets/8175014/f014c9ae-7bb2-4c6a-b2d4-85f81b3fdd1b)
+  <img src = "https://github.com/Gondram/Prediction-of-Product-Sales/assets/8175014/f014c9ae-7bb2-4c6a-b2d4-85f81b3fdd1b">
 </p>
 
 There is a moderate positive correlation between item MRP (the list price) and item sales. 
