@@ -4,8 +4,6 @@
 
 David Atkins
 
-### <><>
-
 ## Data Source: 
 BigMart Sales Data 
 https://www.kaggle.com/datasets/brijbhushannanda1979/bigmart-sales-data
