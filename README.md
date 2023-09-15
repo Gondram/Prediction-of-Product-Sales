@@ -49,7 +49,7 @@ This histogram shows that the majority of the salaries are around $100,000.
 There is a moderate positive correlation between item MRP (the list price) and item sales. 
 
 <p align = "center"> 
-![item_visibility_hist](https://github.com/Gondram/Prediction-of-Product-Sales/assets/8175014/68852655-7b6d-4994-a929-6a433b9ab844)
+  <img src = "https://github.com/Gondram/Prediction-of-Product-Sales/assets/8175014/68852655-7b6d-4994-a929-6a433b9ab844">
 </p>
 
 The Item visibility mean is higher than median. This likely reflects the fact that nothing can go below 0% visibility, so the curve skews positive.
@@ -89,32 +89,18 @@ This graph shows that item visibility has a very slight negative trend in relati
   - RMSE: 1,050.107
 
 
-- The Final Model Chosen was a `Random Forest Regressor Model` with the n_estimators tuned to 10, max_depth tuned to 5, min_samples_leaf tuned to 2, and min_samples_split.
+- The Final Model Chosen was a `Random Forest Regressor Model` with the n_estimators tuned to 10, max_depth tuned to 5, min_samples_leaf tuned to 2, and min_samples_split set to.
 - For the testing set on the model, `60%` of the variance in y was explained by x. 
 - The Mean Absolute Error was off by about `$731.02`.
 - The Mean Squared Error was `$1,102,724.27`.
 - The Root Mean Squared Error had a calculation of `$1,050.11`.
 
-Using this model to make predictions about the best places to live and which careers to choose to earn the most money would not be a very reliable. Considering the previous regression metrics from how the model performed, there is a disparity between the R^2 score and also the Root Mean Squared Error that cannot be ignored.
+Using this model to make predictions about projected sales would only be moderately reliable. The train and test R-squared and RMSE are very similar. This model reliably explains 60% of the sales variance.
 
-## Recommendations
-
-Data Science Insights
-
-- For those who have an interest in Data Science:
-  - Data Analytics Leads & Principal Data Engineers earn the most amount of money. However, this are usually not entry level careers and I would recommend going through a program, like Coding Dojo, where you can earn your data science certificate and then map out your career to these positions.
-
-  - Data Engineers & Data Scientists have the most 100% remote positions. So, if you are wanting to work from home, or work from anywhere in the world, choosing one of the top five remote positions would be a good choice to build your career upon.
-  
-  - Lastly, the trend for the last three years show that data science and related fields are increasingly earning more money each year. So, choosing a career in one of these fields can be very lucrative.
+## Recommendation
 
 Model Performance
-- Overall, the best model is definitely the tuned Random Forest Regressor Model. There was still some bias in the model, but by far it outperformed the linear regression model. 
-
-
-## Limitations & Next Steps
-
-From here, a student could use the insights from the visuals on how to tailor their path for their career. As mentioned before, Coding Dojo has a fantastic program that prepares inspiring data scientists for the field of data science. 
+- Overall, the best model is definitely the tuned Random Forest Regressor Model. The model is neither overly overfit or underfit. The model outperformed the linear regression.
 
 ## For Further Information
 
