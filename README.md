@@ -105,17 +105,17 @@ Using this model to make predictions about projected sales would only be moderat
     - "Outlet_Establishment_Year" - The later the outlet establishment year the higher the predicted outlet sales. This implies an early surge in sales when an outlet is newer.
     - "Outlet_Identifier_OUT046" - This specific outlet has significantly higher predicted sales.
     - "Outlet_Size_High" - The largest Outlets have higher predicted sales
-    - 
+
 <p align = "center"> 
   <img src = "https://i.imgur.com/ulrdCe3.png">
 </p>
 
 - The Five Most Important Features Are: 
- - Item_MRP
- - Outlet_Type_Grocery_Store
- - Item_Visibility
- - Item_Weight
- - Outlet_Identifier_OUT027
+  - Item_MRP
+  - Outlet_Type_Grocery_Store
+  - Item_Visibility
+  - Item_Weight
+  - Outlet_Identifier_OUT027
 
 An 'Important' feature is one that was used extensively by the model. None of these indicate directionality.
 
